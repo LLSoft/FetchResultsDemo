@@ -13,6 +13,7 @@
 		BF44D30B1F080C4D00F8A2AE /* FetchResultsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF44D3091F080C4D00F8A2AE /* FetchResultsDemo.xcdatamodeld */; };
 		BF44D30D1F080C4D00F8A2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF44D30C1F080C4D00F8A2AE /* Assets.xcassets */; };
 		BF44D3101F080C4D00F8A2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF44D30E1F080C4D00F8A2AE /* LaunchScreen.storyboard */; };
+		BF44D3181F080CE100F8A2AE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D3171F080CE100F8A2AE /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF44D30C1F080C4D00F8A2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF44D30F1F080C4D00F8A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF44D3111F080C4D00F8A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF44D3171F080CE100F8A2AE /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		BF44D3011F080C4C00F8A2AE /* FetchResultsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BF44D3061F080C4D00F8A2AE /* Main.storyboard */,
 				BF44D3021F080C4D00F8A2AE /* AppDelegate.swift */,
 				BF44D3041F080C4D00F8A2AE /* ViewController.swift */,
-				BF44D3061F080C4D00F8A2AE /* Main.storyboard */,
+				BF44D3171F080CE100F8A2AE /* Data.swift */,
 				BF44D30C1F080C4D00F8A2AE /* Assets.xcassets */,
 				BF44D30E1F080C4D00F8A2AE /* LaunchScreen.storyboard */,
 				BF44D3111F080C4D00F8A2AE /* Info.plist */,
@@ -143,6 +146,7 @@
 				BF44D3051F080C4D00F8A2AE /* ViewController.swift in Sources */,
 				BF44D3031F080C4D00F8A2AE /* AppDelegate.swift in Sources */,
 				BF44D30B1F080C4D00F8A2AE /* FetchResultsDemo.xcdatamodeld in Sources */,
+				BF44D3181F080CE100F8A2AE /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
